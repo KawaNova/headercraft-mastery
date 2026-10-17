@@ -1,0 +1,49 @@
+[App Name]
+HeaderCraft - HTTP Headers, CORS & Security Configurator
+
+[Short Description]
+Visual CORS builder, security auditing & Cache-Control generator. Instant config export for Nginx, Apache, Next.js & Express.
+
+[Full Description]
+HeaderCraft is the ultimate developer companion for crafting, optimizing, and auditing HTTP headers.
+
+Quickly configure CORS rules, harden web security with industry-standard headers (HSTS, CSP, X-Content-Type-Options, X-Frame-Options, Permissions-Policy), and fine-tune Cache-Control policies with instant output ready for production deployment.
+
+Key Features:
+
+1. Visual CORS Builder
+• Configure Allowed Origins (* or domain-specific)
+• Allowed Methods (GET, POST, PUT, DELETE, OPTIONS, etc.)
+• Allowed Headers and Credentials (with automatic warning on wildcard-credential conflicts)
+• Preflight cache duration (Max-Age)
+
+2. Security Auditor & Grade A+ Checker
+• Real-time linting of header vulnerabilities
+• Detects missing HSTS, CSP, and MIME-sniffing protection
+• Preemptively warns against browser-blocking CORS mistakes
+• Reach A+ grade on Mozilla Observatory & SecurityHeaders.com
+
+3. Cache-Control Generator
+• Presets for zero-cache APIs (no-store, must-revalidate) to 1-year immutable CDN caching for hashed static assets.
+
+4. Multi-Platform Server Export
+• Raw HTTP
+• Nginx (add_header)
+• Apache (.htaccess / mod_headers)
+• Cloudflare Pages & Vercel (_headers)
+• Next.js (next.config.js headers array)
+• Node.js Express middleware
+
+5. Battle-Tested Presets
+• RESTful JSON API
+• Maximum Security A+ Website
+• Static Assets & CDN Caching
+• SPA & Frontend Hosting (React / Vue / Next)
+• Web Fonts CDN
+• Webhook & Microservices
+
+6. Comprehensive HTTP Glossary
+• Detailed reference guide for 40+ HTTP headers with RFC explanations and real-world examples.
+
+7. 100% On-Device & Privacy-First
+• All processing happens locally on your Android device. Zero external data transmission.

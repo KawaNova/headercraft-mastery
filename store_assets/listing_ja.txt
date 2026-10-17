@@ -1,0 +1,48 @@
+【アプリ名】
+HTTPヘッダー設定ガイド - CORS・セキュリティ・キャッシュ設定支援
+
+【簡単な説明】
+CORS、セキュリティヘッダー、Cache-Controlを直感生成！Nginx・Apache・Next.js・Express設定コードを瞬時出力。
+
+【詳しい説明】
+『HTTPヘッダー設定ガイド (HeaderCraft)』は、Web開発者・インフラエンジニア・API設計者のためのHTTPヘッダー設定支援＆セキュリティ診断アプリです。
+
+CORS（オリジン間リソース共有）、最新のセキュリティヘッダー（HSTS, CSP, X-Content-Type-Options, X-Frame-Options, Referrer-Policy）、Cache-Control（キャッシュ制御）をGUIで素早く構築し、各種Webサーバーやフレームワーク向けの設定コードを1タップで生成・コピーできます。
+
+■ 主な特徴・機能
+
+1. 直感的な CORS 設定ビルダー
+・Origin (*、特定ドメイン、複数指定)
+・許可メソッド (GET, POST, PUT, DELETE, OPTIONS 等)
+・許可ヘッダー、Cookie認証フラグ (Allow-Credentials)
+・プリフライトキャッシュ時間 (Max-Age) を視覚的に設定。
+
+2. セキュリティヘッダー診断 (Grade A+ 監査)
+・ワイルドカードOriginとCookie併用によるブラウザ仕様違反ブロックの未然検知
+・HSTS (HTTPS通信強制 / preload)、CSP、nosniff、クリックジャッキング対策の欠落警告
+・Mozilla Observatory や SecurityHeaders で最高評価 A+ を目指す構成支援。
+
+3. Cache-Control 制御ビルダー
+・API向けの no-store / no-cache から、静的ビルドアセット向けの 1年 immutable キャッシュまで簡単に生成。
+
+4. マルチプラットフォーム出力
+・Raw HTTP
+・Nginx (add_header)
+・Apache (.htaccess / mod_headers)
+・Cloudflare Pages / Vercel (_headers)
+・Next.js (next.config.js headers配列)
+・Node.js Express (res.setHeader / ミドルウェア)
+
+5. 実務プリセット集
+・RESTful JSON API
+・最高セキュリティ A+ Webサイト
+・静的アセット & CDN長期キャッシュ
+・SPAホスティング (React, Vue, Next)
+・Webフォント配信 (WOFF2/TTF)
+・Webhook / マイクロサービス間通信
+
+6. 充実のHTTPヘッダー辞典
+・主要な40種類以上のHTTPヘッダーをカテゴリ別に収録・詳細解説。
+
+7. 完全オフライン動作 & プライバシー保護
+・すべての生成・診断はスマートフォン端末内で完結。外部通信は一切行いません。

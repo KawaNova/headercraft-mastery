@@ -1,0 +1,22 @@
+# Google Play Data Safety Declaration for 033_jwt-inspector (JWT Inspector)
+data_collection:
+  collected: false
+  shared: false
+  purposes: []
+  data_types: []
+
+security_practices:
+  data_encrypted_in_transit: true
+  can_request_data_deletion: false
+  independent_security_review: false
+
+ads:
+  ad_mob_integrated: true
+  advertising_id_collected: true
+  ad_network_data_usage: "Ad delivery, analytics, and fraud prevention by Google Play Services AdMob"
+
+offline_features:
+  jwt_decoder: "100% On-Device Local Processing (No tokens transmitted over network)"
+  claims_analyzer: "100% On-Device"
+  mock_token_builder: "100% On-Device"
+  saved_tokens: "100% Local Encrypted DataStore"
